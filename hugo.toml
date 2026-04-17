@@ -18,6 +18,18 @@ enableEmoji = true
   dateFormat = "2006-01-02"
   showReadingTime = true
   showWordCount = true
+  ## Override the Theme settings.
+  title = "Cloud Notes"
+  description = "Notes on Azure, Devops and Infrastructure"
+
+  [params.author]
+    name = "Mikkel Buhl Madsen"
+    email = ""
+    link = ""
+
+  [params.home]
+    [params.home.profile]
+      subtitle = "Notes on Azure, Devops and Infrastructure"
 
 [params.page]
   [params.page.toc]
