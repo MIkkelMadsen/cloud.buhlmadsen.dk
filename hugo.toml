@@ -19,7 +19,6 @@ enableEmoji = true
   showReadingTime = true
   showWordCount = true
   [params.header]
-    title = "Cloud Notes"
     [params.header.title]
       name = "Cloud Notes"
 
