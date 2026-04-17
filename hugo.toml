@@ -18,8 +18,10 @@ enableEmoji = true
   dateFormat = "2006-01-02"
   showReadingTime = true
   showWordCount = true
-  ## Override the Theme settings.
-  title = "Cloud Notes"
+  [params.header]
+    title = "Cloud Notes"
+    [params.header.title]
+      name = "Cloud Notes"
 
   [params.author]
     name = "Mikkel Buhl Madsen"
