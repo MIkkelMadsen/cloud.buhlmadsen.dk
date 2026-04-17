@@ -1,0 +1,14 @@
+# Hugo build output
+/public/
+
+# Hugo generated files
+/resources/_gen/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
