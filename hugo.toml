@@ -20,7 +20,6 @@ enableEmoji = true
   showWordCount = true
   ## Override the Theme settings.
   title = "Cloud Notes"
-  description = "Notes on Azure, Devops and Infrastructure"
 
   [params.author]
     name = "Mikkel Buhl Madsen"
