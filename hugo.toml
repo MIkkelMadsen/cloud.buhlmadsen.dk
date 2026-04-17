@@ -22,6 +22,14 @@ enableEmoji = true
     [params.header.title]
       name = "Cloud Notes"
 
+  [params.favicon]
+    color = "#ffffff"
+    safari = "/favicon.png"
+    apple = "/favicon.png"
+    icon32 = "/favicon.png"
+    icon16 = "/favicon.png"
+    manifest = "/site.webmanifest"
+
   [params.author]
     name = "Mikkel Buhl Madsen"
     email = ""
@@ -29,7 +37,11 @@ enableEmoji = true
 
   [params.home]
     [params.home.profile]
+      enable = true
+      avatarURL = "/images/avatar.jpg"
+      title = "Cloud Notes"
       subtitle = "Notes on Azure, Devops and Infrastructure"
+      typeit = true
 
 [params.page]
   [params.page.toc]
