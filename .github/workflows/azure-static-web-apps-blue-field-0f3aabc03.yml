@@ -19,6 +19,13 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.160.1'
+          extended: true
+      - name: Build Hugo site
+        run: hugo --minify
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -30,9 +37,8 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           output_location: "public" # Built app content directory - optional
+          skip_app_build: true
           ###### End of Repository/Build Configurations ######
-          env:
-          HUGO_VERSION: 0.58.0
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
